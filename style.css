@@ -91,6 +91,20 @@ input {
 
 input.error {
     background: url(./images/icon-error.svg) no-repeat scroll 95%;
+    margin-bottom: 5px;
+}
+
+input.error.stop {
+    background-image: none;
+}
+
+form span {
+    /* display: inline-block; */
+    float: right;
+    /* border: 1px solid green; */
+    font-size: .7em;
+    color: red;
+    margin-bottom: 15px;
 }
 
 /* input:focus {
